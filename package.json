@@ -1,0 +1,26 @@
+{
+  "name": "simple-http",
+  "version": "1.0.0",
+  "description": "Setting up Simple HTTP Assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alc7546/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Andrew Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alc7546/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/alc7546/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  }
+}
